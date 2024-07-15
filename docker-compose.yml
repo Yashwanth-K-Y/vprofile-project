@@ -43,12 +43,11 @@ services:
     container_name: vproweb
     ports:
     - "80:80"
-    volumes:
-      - vprowebdata:/etc/nginx/nginx.conf
+    
 
 volumes:
   vproappdata: {}
   vprodbdata: {}   
-      
+
 
   
